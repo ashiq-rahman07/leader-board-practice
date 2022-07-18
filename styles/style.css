@@ -194,6 +194,7 @@ hr {
 
     .courses {
         grid-template-columns: repeat(1, 1fr);
+        grid-row-gap: 10px;
     }
 
     .course {
