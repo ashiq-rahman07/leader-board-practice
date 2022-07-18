@@ -159,3 +159,51 @@ hr {
     border-radius: 15px;
     letter-spacing: 1px;
 }
+
+
+
+@media only screen and (max-width:600px) {
+    .container {
+        width: 100%;
+    }
+
+    .players {
+
+        grid-template-columns: repeat(1, 1fr);
+
+    }
+
+    .top-blogs h2 {
+        text-align: center;
+    }
+
+    .blogs {
+        grid-template-columns: repeat(1, 1fr);
+        align-items: center;
+    }
+
+
+
+    .top-players {
+        text-align: center;
+    }
+
+    .player {
+        flex-direction: column;
+    }
+
+    .courses {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .course {
+        width: 100%;
+    }
+
+    .course-details {
+        flex-direction: column;
+    }
+
+
+
+}
